@@ -4,7 +4,7 @@
  * @version 1.0.0
  */
 /*
-Plugin Name: Lock By AD Group
+Plugin Name: Lock By LDAP Query
 Plugin URI: http://wordpress.org/plugins/lock-by-ldap-query
 Description: Lock a page down so that it can only be viewed by certain LDAP groups
 Author: Michael George
