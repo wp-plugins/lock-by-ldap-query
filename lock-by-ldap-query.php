@@ -228,7 +228,7 @@ if ( class_exists( "LockByLDAPQuery" ) ) {
 }
 
 //Initialize the admin panel
-if ( ! function_exists( "spAddOptionPage" ) ) {
+if ( ! function_exists( "lblqAddOptionPage" ) ) {
 	function lblqAddOptionPage() {
 		global $svvsd_lockByLDAPQuery;
 		if ( ! isset( $svvsd_lockByLDAPQuery ) ) {
