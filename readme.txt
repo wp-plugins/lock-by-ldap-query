@@ -3,8 +3,8 @@ Contributors: george_michael
 Donate link: 
 Tags: 
 Requires at least: 3.5.2
-Tested up to: 4.2.2
-Stable tag: 1.0.0
+Tested up to: 4.3.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,8 +35,13 @@ This was originally created because we had a contact form that we wanted only ce
 
 == Changelog ==
 
+= 1.0.1 =
+* Removed PHP4 constructor from class as WP 4.3 deprecated that type of constructor.
+
 = 1.0.0 =
 * Initial version.
 
 == Upgrade Notice ==
 
+= 1.0.1 =
+* Required upgrade if using WP 4.3.

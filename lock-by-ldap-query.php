@@ -1,14 +1,14 @@
 <?php
 /**
  * @package Lock-By-LDAP-Query
- * @version 1.0.0
+ * @version 1.0.1
  */
 /*
 Plugin Name: Lock By LDAP Query
 Plugin URI: http://wordpress.org/plugins/lock-by-ldap-query
 Description: Lock a page down so that it can only be viewed by certain LDAP groups
 Author: Michael George
-Version: 1.0.0
+Version: 1.0.1
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -30,10 +30,6 @@ if ( ! class_exists( "LockByLDAPQuery" ) ) {
 		var $adminOptionsName = "LockByLDAPQueryAdminOptions";
 		var $join;
 		var $where;
-
-		function LockByLDAPQuery() { //constructor
-			$this->__construct();
-		}
 
 		function __construct() {
 			$this->lblqGetAdminOptions();
